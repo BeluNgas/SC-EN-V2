@@ -486,7 +486,7 @@ module.exports = Dhani = async (Dhani, mek, _welkom) => {
      	if (isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32mGROUP\x1b[1;37m]', waktu, color(command), 'from', color(senderr.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 switch (command) {
 
-༶•┈┈⛧┈♛[ *ALL MENU* ] ♛┈⛧┈┈•༶
+//━━━━[ All Feature ]━━━━//
 
 case 'menu':
 case 'help':
