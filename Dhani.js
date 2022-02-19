@@ -486,7 +486,7 @@ module.exports = Dhani = async (Dhani, mek, _welkom) => {
      	if (isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32mGROUP\x1b[1;37m]', waktu, color(command), 'from', color(senderr.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 switch (command) {
 
-//━━━━[ All Feature ]━━━━//
+༶•┈┈⛧┈♛[ *ALL MENU* ] ♛┈⛧┈┈•༶
 
 case 'menu':
 case 'help':
@@ -495,7 +495,7 @@ latensie = speed() - timestampe
 menu =`Hi ${pushname} ${sayingtime}
 
 
-╭─⬣ 「 TODAY 」 ⬣
+╭─⬣ 「 *TODAY* 」 ⬣
 │🔖 ${date}
 │🔖 ${waktu}
 │🔖 ${sayingtime}
@@ -507,6 +507,7 @@ menu =`Hi ${pushname} ${sayingtime}
 │🔖 Owner number : @${owner2.split("@")[0]}
 │🔖 Runtime : ${runtime(process.uptime())}
 │🔖 Speed : ${latensie.toFixed(4)} second
+│🔖 GitHub : github.com/BeluNgas
 └⬣
 
 ╭─⬣ 「 INFO USER 」 ⬣
